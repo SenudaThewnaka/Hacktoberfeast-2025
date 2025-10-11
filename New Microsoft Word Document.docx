@@ -1,0 +1,61 @@
+⬇️
+
+🧾 Software Requirements Specification (SRS)
+
+Project Title: Hacktoberfeast 2025
+Version: 1.0
+Date: October 2025
+Prepared by: Senuda Thewnaka
+
+1. Introduction
+
+The Hacktoberfeast 2025 project is designed to help developers learn open-source contribution, documentation, and GitHub collaboration.
+This SRS describes the system features, requirements, and design goals for the project repository.
+
+2. Purpose
+
+The purpose of this project is to:
+
+Provide a collaborative repository for participants.
+
+Enable beginners to contribute using GitHub.
+
+Maintain clear and structured project documentation.
+
+3. Scope
+
+The repository allows users to:
+
+Fork the project and make contributions.
+
+Add documentation files, such as README or SRS.
+
+Submit pull requests for review.
+
+Learn about open-source contribution workflow.
+
+This project will not include any backend or deployment services.
+Its primary focus is learning and documentation.
+
+4. Functional Requirements
+
+Requirement ID	     Description
+
+FR1	                 The system shall allow users to fork the repository.
+FR2                  The system shall allow users to create a new branch and commit changes.
+FR3	                 The system shall allow users to push commits to their fork.
+FR4	                 The system shall allow users to create pull requests.
+FR5	                 The repository shall maintain clear project documentation.
+
+5. Non-Functional Requirements
+Type	Description
+Performance	The repository should handle multiple contributors at once.
+Usability	The workflow should be simple and beginner-friendly.
+Reliability	Version control ensures all contributions are tracked.
+Maintainability	Documentation should be easy to update.
+Scalability	Can be expanded with new folders or files for future features.
+
+6. Conclusion
+
+This SRS document defines the purpose and scope of the Hacktoberfeast 2025 repository.
+It serves as a base for contributors to understand the project’s structure, goals, and workflow.
